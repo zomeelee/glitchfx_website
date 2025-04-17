@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "features": "功能",
+    "solutions": "解决方案",
+    "testimonials": "用户评价",
+    "download": "立即下载",
+    "current_lang": "中文"
+  },
+  "hero": {
+    "title": "炫酷特效，秒变大片！<br>开启你的创作旅程",
+    "subtitle": "AI 驱动的视频特效工具，让每个视频都充满魔力，无需专业技能，一键生成震撼效果",
+    "download": "立即下载",
+    "watch_demo": "观看演示"
+  },
+  "features": {
+    "title": "强大功能，释放创意",
+    "ai_engine": {
+      "title": "AI 特效引擎",
+      "desc": "强大的 AI 特效引擎，实时渲染，秒生成梦幻效果，让你的视频脱颖而出"
+    },
+    "filters": {
+      "title": "丰富滤镜库",
+      "desc": "滤镜、动态特效、光影效果，随心所欲创作，满足各种风格需求"
+    },
+    "one_click": {
+      "title": "一键编辑",
+      "desc": "无门槛编辑，视频特效一键搞定，适合所有人，即使零基础也能创作精彩内容"
+    },
+    "custom": {
+      "title": "自定义创作",
+      "desc": "支持自定义调节，创意不设限，打造专属于你的视频风格"
+    }
+  },
+  "demo": {
+    "title": "见证魔力，一键变身",
+    "subtitle": "普通视频秒变专业大片，AI 特效让创作如此简单",
+    "features": {
+      "preview": "实时预览效果",
+      "apply": "一键应用特效",
+      "render": "秒级渲染速度",
+      "creativity": "无限创意可能"
+    }
+  },
+  "solutions": {
+    "title": "告别创作痛点",
+    "complex": {
+      "pain": "视频制作复杂，技术门槛高",
+      "pain_desc": "传统视频编辑软件学习曲线陡峭，需要专业知识",
+      "solution": "GlitchFX 解决方案",
+      "solution_desc": "无须专业技能，AI 自动生成炫酷特效，一键处理，人人都是视频大师"
+    },
+    "limited": {
+      "pain": "特效选择单一，创作受限",
+      "pain_desc": "市面上的 APP 特效库有限，难以满足个性化需求",
+      "solution": "GlitchFX 解决方案",
+      "solution_desc": "超多视频特效，满足各种风格需求，从科幻到浪漫，选择无限，持续更新"
+    },
+    "slow": {
+      "pain": "时间紧，制作慢",
+      "pain_desc": "特效渲染耗时长，影响创作效率和灵感",
+      "solution": "GlitchFX 解决方案",
+      "solution_desc": "秒渲染，一键完成特效处理，节省创作时间，快速分享到社交平台"
+    }
+  },
+  "testimonials": {
+    "title": "创作者的选择",
+    "subtitle": "超过100万创作者正在使用，AI 助力创作无限可能",
+    "stats": {
+      "users": "活跃用户",
+      "rating": "App Store 评分",
+      "effects": "特效模板",
+      "countries": "国家和地区"
+    }
+  },
+  "social": {
+    "title": "加入创作社区",
+    "subtitle": "分享你的创作，获取更多灵感",
+    "share_title": "分享获得奖励",
+    "share_desc": "将你的创作分享至社交平台，免费获得限时特效包！",
+    "benefits": {
+      "unlock": "解锁独家特效",
+      "premium": "获取高级功能",
+      "community": "加入创作者社区"
+    }
+  },
+  "download": {
+    "title": "立即下载，开启你的创意之旅",
+    "subtitle": "5秒生成炫酷视频特效，让创作更简单",
+    "app_store": "下载自",
+    "google_play": "下载自",
+    "qr_code": "扫码下载"
+  },
+  "footer": {
+    "slogan": "让每个视频都充满魔力",
+    "product": "产品",
+    "product_links": {
+      "features": "功能介绍",
+      "effects": "特效库",
+      "pricing": "价格",
+      "changelog": "更新日志"
+    },
+    "resources": "资源",
+    "resource_links": {
+      "tutorials": "教程",
+      "faq": "常见问题",
+      "support": "支持中心",
+      "community": "创作者社区"
+    },
+    "company": "公司",
+    "company_links": {
+      "about": "关于我们",
+      "contact": "联系我们",
+      "careers": "加入我们",
+      "privacy": "隐私政策"
+    },
+    "copyright": "保留所有权利"
+  }
+}

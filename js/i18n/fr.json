@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "solutions": "Solutions",
+    "testimonials": "Témoignages",
+    "download": "Télécharger",
+    "current_lang": "Français"
+  },
+  "hero": {
+    "title": "Effets Spectaculaires, Magie Instantanée!<br>Commencez Votre Voyage Créatif",
+    "subtitle": "Outil d'effets vidéo propulsé par l'IA qui ajoute de la magie à chaque vidéo, sans compétences professionnelles, créez des effets étonnants en un clic",
+    "download": "Télécharger",
+    "watch_demo": "Voir la Démo"
+  },
+  "features": {
+    "title": "Fonctionnalités Puissantes, Libérez la Créativité",
+    "ai_engine": {
+      "title": "Moteur d'Effets IA",
+      "desc": "Moteur d'effets IA puissant, rendu en temps réel, crée instantanément des effets de rêve qui font ressortir vos vidéos"
+    },
+    "filters": {
+      "title": "Bibliothèque de Filtres Riche",
+      "desc": "Filtres, effets dynamiques, effets de lumière et d'ombre, créez librement pour répondre à divers besoins de style"
+    },
+    "one_click": {
+      "title": "Édition en Un Clic",
+      "desc": "Aucune barrière à l'édition, effets vidéo en un clic, adapté à tous, même les débutants peuvent créer un contenu incroyable"
+    },
+    "custom": {
+      "title": "Création Personnalisée",
+      "desc": "Prise en charge des sous-titres personnalisés, échange de visages, transitions, créativité illimitée, créez votre propre style vidéo"
+    }
+  },
+  "demo": {
+    "title": "Témoignez de la Magie, Transformez en Un Clic",
+    "subtitle": "Les vidéos ordinaires deviennent instantanément des productions professionnelles, les effets IA rendent la création si simple",
+    "features": {
+      "preview": "Aperçu en temps réel",
+      "apply": "Effets en un clic",
+      "render": "Rendu en quelques secondes",
+      "creativity": "Possibilités créatives illimitées"
+    }
+  },
+  "solutions": {
+    "title": "Dites Adieu aux Points Douloureux de la Création",
+    "complex": {
+      "pain": "La production vidéo est complexe avec des barrières techniques élevées",
+      "pain_desc": "Les logiciels d'édition vidéo traditionnels ont une courbe d'apprentissage abrupte et nécessitent des connaissances professionnelles",
+      "solution": "Solution GlitchFX",
+      "solution_desc": "Aucune compétence professionnelle requise, l'IA génère automatiquement des effets cool, traitement en un clic, tout le monde peut être un maître de la vidéo"
+    },
+    "limited": {
+      "pain": "Choix d'effets limités, créativité restreinte",
+      "pain_desc": "Les applications sur le marché ont des bibliothèques d'effets limitées, difficiles à répondre aux besoins personnalisés",
+      "solution": "Solution GlitchFX",
+      "solution_desc": "De nombreux effets vidéo pour répondre à divers besoins de style, de la science-fiction au romantique, choix illimités, mis à jour en continu"
+    },
+    "slow": {
+      "pain": "Le temps est serré, la production est lente",
+      "pain_desc": "Le rendu des effets prend beaucoup de temps, affectant l'efficacité créative et l'inspiration",
+      "solution": "Solution GlitchFX",
+      "solution_desc": "Rendu instantané, traitement des effets complet en un clic, gain de temps de création, partage rapide sur les plateformes sociales"
+    }
+  },
+  "testimonials": {
+    "title": "Le Choix des Créateurs",
+    "subtitle": "Plus d'un million de créateurs l'utilisent, l'IA permet des possibilités créatives illimitées",
+    "stats": {
+      "users": "Utilisateurs Actifs",
+      "rating": "Note App Store",
+      "effects": "Modèles d'Effets",
+      "countries": "Pays et Régions"
+    }
+  },
+  "social": {
+    "title": "Rejoignez la Communauté Créative",
+    "subtitle": "Partagez vos créations, obtenez plus d'inspiration",
+    "share_title": "Partagez pour des Récompenses",
+    "share_desc": "Partagez vos créations sur les plateformes sociales et obtenez des packs d'effets gratuits à durée limitée!",
+    "benefits": {
+      "unlock": "Débloquez des effets exclusifs",
+      "premium": "Obtenez des fonctionnalités premium",
+      "community": "Rejoignez la communauté des créateurs"
+    }
+  },
+  "download": {
+    "title": "Téléchargez Maintenant, Commencez Votre Voyage Créatif",
+    "subtitle": "Générez des effets vidéo cool en 5 secondes, rendant la création plus facile",
+    "app_store": "Télécharger depuis",
+    "google_play": "Télécharger depuis",
+    "qr_code": "Scannez pour télécharger"
+  },
+  "footer": {
+    "slogan": "Ajouter de la magie à chaque vidéo",
+    "product": "Produit",
+    "product_links": {
+      "features": "Fonctionnalités",
+      "effects": "Bibliothèque d'Effets",
+      "pricing": "Tarification",
+      "changelog": "Journal des Modifications"
+    },
+    "resources": "Ressources",
+    "resource_links": {
+      "tutorials": "Tutoriels",
+      "faq": "FAQ",
+      "support": "Centre d'Aide",
+      "community": "Communauté des Créateurs"
+    },
+    "company": "Entreprise",
+    "company_links": {
+      "about": "À Propos de Nous",
+      "contact": "Contactez-Nous",
+      "careers": "Carrières",
+      "privacy": "Politique de Confidentialité"
+    },
+    "copyright": "Tous droits réservés"
+  }
+}

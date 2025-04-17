@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "features": "Features",
+    "solutions": "Solutions",
+    "testimonials": "Testimonials",
+    "download": "Download Now",
+    "current_lang": "English"
+  },
+  "hero": {
+    "title": "Amazing Effects, Instant Magic!<br>Start Your Creative Journey",
+    "subtitle": "AI-powered video effects tool that adds magic to every video, no professional skills needed, create stunning effects with one click",
+    "download": "Download Now",
+    "watch_demo": "Watch Demo"
+  },
+  "features": {
+    "title": "Powerful Features, Unleash Creativity",
+    "ai_engine": {
+      "title": "AI Effects Engine",
+      "desc": "Powerful AI effects engine, real-time rendering, instantly creates dreamy effects that make your videos stand out"
+    },
+    "filters": {
+      "title": "Rich Filter Library",
+      "desc": "Filters, dynamic effects, light and shadow effects, create freely to meet various style needs"
+    },
+    "one_click": {
+      "title": "One-Click Editing",
+      "desc": "No barriers to editing, video effects with one click, suitable for everyone, even beginners can create amazing content"
+    },
+    "custom": {
+      "title": "Custom Creation",
+      "desc": "Support for custom adjustment, unlimited creativity, create your own video style"
+    }
+  },
+  "demo": {
+    "title": "Witness the Magic, Transform with One Click",
+    "subtitle": "Ordinary videos instantly become professional productions, AI effects make creation so simple",
+    "features": {
+      "preview": "Real-time preview",
+      "apply": "One-click effects",
+      "render": "Second-level rendering",
+      "creativity": "Unlimited creative possibilities"
+    }
+  },
+  "solutions": {
+    "title": "Say Goodbye to Creative Pain Points",
+    "complex": {
+      "pain": "Video production is complex with high technical barriers",
+      "pain_desc": "Traditional video editing software has a steep learning curve and requires professional knowledge",
+      "solution": "GlitchFX Solution",
+      "solution_desc": "No professional skills required, AI automatically generates cool effects, one-click processing, everyone can be a video master"
+    },
+    "limited": {
+      "pain": "Limited effect choices, restricted creativity",
+      "pain_desc": "Apps on the market have limited effect libraries, difficult to meet personalized needs",
+      "solution": "GlitchFX Solution",
+      "solution_desc": "Numerous video effects to meet various style needs, from sci-fi to romantic, unlimited choices, continuously updated"
+    },
+    "slow": {
+      "pain": "Time is tight, production is slow",
+      "pain_desc": "Effect rendering takes a long time, affecting creative efficiency and inspiration",
+      "solution": "GlitchFX Solution",
+      "solution_desc": "Instant rendering, complete effect processing with one click, save creation time, quickly share to social platforms"
+    }
+  },
+  "testimonials": {
+    "title": "Creators' Choice",
+    "subtitle": "Over 1 million creators are using it, AI empowers unlimited creative possibilities",
+    "stats": {
+      "users": "Active Users",
+      "rating": "App Store Rating",
+      "effects": "Effect Templates",
+      "countries": "Countries & Regions"
+    }
+  },
+  "social": {
+    "title": "Join the Creative Community",
+    "subtitle": "Share your creations, get more inspiration",
+    "share_title": "Share for Rewards",
+    "share_desc": "Share your creations on social platforms and get free limited-time effect packs!",
+    "benefits": {
+      "unlock": "Unlock exclusive effects",
+      "premium": "Get premium features",
+      "community": "Join the creator community"
+    }
+  },
+  "download": {
+    "title": "Download Now, Start Your Creative Journey",
+    "subtitle": "Generate cool video effects in 5 seconds, making creation easier",
+    "app_store": "Download from",
+    "google_play": "Download from",
+    "qr_code": "Scan to download"
+  },
+  "footer": {
+    "slogan": "Adding magic to every video",
+    "product": "Product",
+    "product_links": {
+      "features": "Features",
+      "effects": "Effects Library",
+      "pricing": "Pricing",
+      "changelog": "Changelog"
+    },
+    "resources": "Resources",
+    "resource_links": {
+      "tutorials": "Tutorials",
+      "faq": "FAQ",
+      "support": "Support Center",
+      "community": "Creator Community"
+    },
+    "company": "Company",
+    "company_links": {
+      "about": "About Us",
+      "contact": "Contact Us",
+      "careers": "Careers",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "All rights reserved"
+  }
+}

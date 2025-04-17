@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlitchFX - AI Video Effects APP</title>
+    <meta name="description" content="GlitchFX - Create stunning video effects with one click, AI-powered video editing tool that makes it easy for everyone to create amazing videos">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="images/glitchfx-title2.jpg" alt="GlitchFX Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#features" data-i18n="nav.features">Features</a>
+                <a href="#solutions" data-i18n="nav.solutions">Solutions</a>
+                <a href="#testimonials" data-i18n="nav.testimonials">Testimonials</a>
+                <a href="#download" class="cta-button" data-i18n="nav.download">Download Now</a>
+                <div class="language-selector">
+                    <div class="current-language">
+                        <i class="fas fa-globe"></i>
+                        <span data-i18n="nav.current_lang">English</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <ul class="language-dropdown">
+                        <li data-lang="en" class="active">English</li>
+                        <li data-lang="zh-CN">中文</li>
+                        <li data-lang="fr">Français</li>
+                        <!-- <li data-lang="de">Deutsch</li>
+                        <li data-lang="ja">日本語</li>
+                        <li data-lang="ko">한국어</li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="videos/hero-background.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-i18n="hero.title">Amazing Effects, Instant Magic!<br>Start Your Creative Journey</h1>
+                <p data-i18n="hero.subtitle">AI-powered video effects tool that adds magic to every video, no professional skills needed, create stunning effects with one click</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="primary-button" data-i18n="hero.download">Download Now</a>
+                    <a href="#demo" class="secondary-button" data-i18n="hero.watch_demo">Watch Demo</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 功能亮点 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n="features.title">Powerful Features, Unleash Creativity</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3 data-i18n="features.ai_engine.title">AI Effects Engine</h3>
+                    <p data-i18n="features.ai_engine.desc">Powerful AI effects engine, real-time rendering, instantly creates dreamy effects that make your videos stand out</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 data-i18n="features.filters.title">Rich Filter Library</h3>
+                    <p data-i18n="features.filters.desc">Filters, dynamic effects, light and shadow effects, create freely to meet various style needs</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 data-i18n="features.one_click.title">One-Click Editing</h3>
+                    <p data-i18n="features.one_click.desc">No barriers to editing, video effects with one click, suitable for everyone, even beginners can create amazing content</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3 data-i18n="features.custom.title">Custom Creation</h3>
+                    <p data-i18n="features.custom.desc">Support for custom subtitles, face swapping, transitions, unlimited creativity, create your own video style</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 演示视频 -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <div class="demo-content">
+                <div class="demo-text">
+                    <h2 data-i18n="demo.title">Witness the Magic, Transform with One Click</h2>
+                    <p data-i18n="demo.subtitle">Ordinary videos instantly become professional productions, AI effects make creation so simple</p>
+                    <ul class="demo-features">
+                        <li><i class="fas fa-check"></i> <span data-i18n="demo.features.preview">Real-time preview</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="demo.features.apply">One-click effects</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="demo.features.render">Second-level rendering</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="demo.features.creativity">Unlimited creative possibilities</span></li>
+                    </ul>
+                </div>
+                <div class="demo-video">
+                    <div class="video-wrapper">
+                        <video controls poster="images/demo-poster.jpg">
+                            <source src="videos/demo.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 解决方案 -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2 class="section-title" data-i18n="solutions.title">Say Goodbye to Creative Pain Points</h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="pain-point">
+                        <h3 data-i18n="solutions.complex.pain">Video production is complex with high technical barriers</h3>
+                        <p data-i18n="solutions.complex.pain_desc">Traditional video editing software has a steep learning curve and requires professional knowledge</p>
+                    </div>
+                    <div class="solution">
+                        <h3 data-i18n="solutions.complex.solution">GlitchFX Solution</h3>
+                        <p data-i18n="solutions.complex.solution_desc">No professional skills required, AI automatically generates cool effects, one-click processing, everyone can be a video master</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="pain-point">
+                        <h3 data-i18n="solutions.limited.pain">Limited effect choices, restricted creativity</h3>
+                        <p data-i18n="solutions.limited.pain_desc">Apps on the market have limited effect libraries, difficult to meet personalized needs</p>
+                    </div>
+                    <div class="solution">
+                        <h3 data-i18n="solutions.limited.solution">GlitchFX Solution</h3>
+                        <p data-i18n="solutions.limited.solution_desc">Numerous video effects to meet various style needs, from sci-fi to romantic, unlimited choices, continuously updated</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="pain-point">
+                        <h3 data-i18n="solutions.slow.pain">Time is tight, production is slow</h3>
+                        <p data-i18n="solutions.slow.pain_desc">Effect rendering takes a long time, affecting creative efficiency and inspiration</p>
+                    </div>
+                    <div class="solution">
+                        <h3 data-i18n="solutions.slow.solution">GlitchFX Solution</h3>
+                        <p data-i18n="solutions.slow.solution_desc">Instant rendering, complete effect processing with one click, save creation time, quickly share to social platforms</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 用户评价 -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-i18n="testimonials.title">Creators' Choice</h2>
+            <p class="section-subtitle" data-i18n="testimonials.subtitle">Over 1 million creators are using it, AI empowers unlimited creative possibilities</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="user-avatar">
+                        <img src="images/user1.jpg" alt="User Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"This is just so amazing I had to write a review. I am an editor and I make edits on instagram. There is not even a watermark on this when you complete the editing which I find so amazing. The effects are actually great quality and I would recommend this app for everyone. I love it so much and I will be using it alot. Thanks to the amazing creators☺️👏!"</p>
+                        <p class="user-name">@Honest0_0User</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="user-avatar">
+                        <img src="images/user2.jpg" alt="User Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Best glitch app on the market."</p>
+                        <p class="user-name">@Confident824</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="user-avatar">
+                        <img src="images/user3.jpg" alt="User Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"this app is out of the water in so many ways: PROS 1) video effects i haven't seen in any other glitch app, and trust me i have all of them 2) easy to use 3) I usually edit in other apps and then come to this app for the finishing touches and it does wonders!! definitely recommend. 4) i literally don't even remember if i paid for this because if i did it was such an inconsequential price for all the glitch effects! "</p>
+                        <p class="user-name">@iamgoingtodeatroyyoy</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-stats">
+                <div class="stat">
+                    <h3>1000000+</h3>
+                    <p data-i18n="testimonials.stats.users">Active Users</p>
+                </div>
+                <div class="stat">
+                    <h3>4.5</h3>
+                    <p data-i18n="testimonials.stats.rating">App Store Rating</p>
+                </div>
+                <div class="stat">
+                    <h3>200+</h3>
+                    <p data-i18n="testimonials.stats.effects">Effect Templates</p>
+                </div>
+                <div class="stat">
+                    <h3>100+</h3>
+                    <p data-i18n="testimonials.stats.countries">Countries & Regions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 社交分享 -->
+    <section class="social-sharing">
+        <div class="container">
+            <h2 class="section-title" data-i18n="social.title">Join the Creative Community</h2>
+            <p class="section-subtitle" data-i18n="social.subtitle">Share your creations, get more inspiration</p>
+            
+            <div class="sharing-content">
+                <div class="sharing-text">
+                    <h3 data-i18n="social.share_title">Share for Rewards</h3>
+                    <p data-i18n="social.share_desc">Share your creations on social platforms and get free limited-time effect packs!</p>
+                    <ul class="sharing-benefits">
+                        <li><i class="fas fa-gift"></i> <span data-i18n="social.benefits.unlock">Unlock exclusive effects</span></li>
+                        <li><i class="fas fa-unlock"></i> <span data-i18n="social.benefits.premium">Get premium features</span></li>
+                        <li><i class="fas fa-users"></i> <span data-i18n="social.benefits.community">Join the creator community</span></li>
+                    </ul>
+                    <!-- <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    </div> -->
+                </div>
+                <div class="sharing-gallery">
+                    <!-- <div class="gallery-item">
+                        <img src="images/user-creation1.jpg" alt="User Creation">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/user-creation2.jpg" alt="User Creation">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/user-creation3.jpg" alt="User Creation">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/user-creation4.jpg" alt="User Creation">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下载区域 -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="glitch-text" data-i18n="download.title">Download Now, Start Your Creative Journey</h2>
+                <p data-i18n="download.subtitle">Generate cool video effects in 5 seconds, making creation easier</p>
+                <div class="app-buttons">
+                    <a href="https://apps.apple.com/us/app/glitch-fx-glitch-video-editor/id1360624861" class="app-button">
+                        <i class="fab fa-apple"></i>
+                        <span>
+                            <small data-i18n="download.app_store">Download from</small>
+                            App Store
+                        </span>
+                    </a>
+                    <!-- <a href="#" class="app-button">
+                        <i class="fab fa-google-play"></i>
+                        <span>
+                            <small data-i18n="download.app_store">Download from</small>
+                            Google Play
+                        </span>
+                    </a> -->
+                </div>
+                <div class="qr-code">
+                    <img src="images/download-qr.png" alt="Download QR Code">
+                    <p data-i18n="download.qr_code">Scan to download</p>
+                </div>
+            </div>
+            <div class="app-preview">
+                <img src="images/app-preview.png" alt="APP Preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/glitchfx-logo.png" alt="GlitchFX Logo">
+                    <p data-i18n="footer.slogan">Adding magic to every video</p>
+                </div>
+                <div class="footer-links">
+                    <!-- <div class="footer-column">
+                        <h4 data-i18n="footer.product">Product</h4>
+                        <ul>
+                            <li><a href="#" data-i18n="footer.product_links.features">Features</a></li>
+                            <li><a href="#" data-i18n="footer.product_links.effects">Effects Library</a></li>
+                            <li><a href="#" data-i18n="footer.product_links.pricing">Pricing</a></li>
+                            <li><a href="#" data-i18n="footer.product_links.changelog">Changelog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.resources">Resources</h4>
+                        <ul>
+                            <li><a href="#" data-i18n="footer.resource_links.tutorials">Tutorials</a></li>
+                            <li><a href="#" data-i18n="footer.resource_links.faq">FAQ</a></li>
+                            <li><a href="#" data-i18n="footer.resource_links.support">Support Center</a></li>
+                            <li><a href="#" data-i18n="footer.resource_links.community">Creator Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.company">Company</h4>
+                        <ul>
+                            <li><a href="#" data-i18n="footer.company_links.about">About Us</a></li>
+                            <li><a href="#" data-i18n="footer.company_links.contact">Contact Us</a></li>
+                            <li><a href="#" data-i18n="footer.company_links.careers">Careers</a></li>
+                            <li><a href="#" data-i18n="footer.company_links.privacy">Privacy Policy</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GlitchFX. <span data-i18n="footer.copyright">All rights reserved</span>.</p>
+                <!-- <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-weibo"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
